@@ -1,6 +1,6 @@
 {
     "name": "Homework 2",
-    "endpoint": "cal/cs61a/su20/hw02",
+    "endpoint": "ucb/cs61a/sp24/hw02",
     "src": [
         "hw02.py"
     ],
@@ -19,6 +19,7 @@
         "restore",
         "file_contents",
         "grading",
+        "help",
         "analytics",
         "backup"
     ]
