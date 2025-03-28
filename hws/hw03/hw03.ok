@@ -1,6 +1,6 @@
 {
     "name": "Homework 3",
-    "endpoint": "cal/cs61a/su20/hw03",
+    "endpoint": "ucb/cs61a/sp24/hw03",
     "src": [
         "hw03.py"
     ],
@@ -9,17 +9,18 @@
         "tests/*.py": "ok_test"
     },
     "default_tests": [
-        "composer",
-        "g",
-        "g_iter",
-        "missing_digits",
-        "count_change"
+        "num_eights",
+        "digit_distance",
+        "interleaved_sum",
+        "count_coins"
     ],
     "protocols": [
         "restore",
         "file_contents",
-        "grading",
         "analytics",
+        "help",
+        "unlock",
+        "grading",
         "backup"
     ]
 }
