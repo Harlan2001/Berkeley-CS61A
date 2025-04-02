@@ -5,3 +5,4 @@ __pycache__/*
 *.ok_disabled
 *.ok_history
 *.ok_storage
+*.pyc
