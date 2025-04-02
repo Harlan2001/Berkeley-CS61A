@@ -18,7 +18,8 @@ def left(m):
     assert is_mobile(m), "must call left on a mobile"
     return m[1]
 
-
+#process Control Block PCB
+#
 def right(m):
     """Select the right arm of a mobile."""
     assert is_mobile(m), "must call right on a mobile"
@@ -60,11 +61,8 @@ def is_planet(w):
     return type(w) == list and len(w) == 2 and w[0] == 'planet'
 
 def examples():
-    t = mobile(arm(1, planet(2)),
-               arm(2, planet(1)))
-    u = mobile(arm(5, planet(1)),
-               arm(1, mobile(arm(2, planet(3)),
-                              arm(3, planet(2)))))
+    t = mobile(arm(1, planet(2)),arm(2, planet(1)))
+    u = mobile(arm(5, planet(1)),arm(1, mobile(arm(2, planet(3)),arm(3, planet(2)))))
     v = mobile(arm(4, t), arm(2, u))
     return (t, u, v)
 
