@@ -1,8 +1,9 @@
-# Ignore contents of __pycache__ but keep the folder
-__pycache__/*
+__pycache__/
 
 *.ok_consent
 *.ok_disabled
 *.ok_history
 *.ok_storage
+*.ok_messages
+*.ok_storage.db
 *.pyc
